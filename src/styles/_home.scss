@@ -1,0 +1,34 @@
+.home{
+    display: flex;
+    padding-inline: 8vw;
+   
+    min-height: calc(100vh - 88px);
+
+    .home-left{
+        width: 50%;
+       
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        h1{
+            font-size: 3.5rem;
+            font-weight: 800;
+            span{
+                text-decoration-line:underline;
+                color: #3BB0E4;
+            }
+        }
+        p{
+            line-height: 1.5rem;
+            font-weight: 400;
+            color: #bbbcbf;
+            font-weight: 300;
+        }
+        
+
+    }
+    .home-right{
+        width: 50%;
+        
+    }
+}
