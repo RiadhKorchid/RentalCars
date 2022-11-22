@@ -4,8 +4,12 @@
     padding: 0px;
 }
 body{
-    
+    overflow-x: hidden;
     font-family: 'Poppins', sans-serif;
 }
+$primary-color:#01BAEF;
+$secondary-color :#bbbcbf;
 @import "./nav";
 @import"./home";
+@import "./footer";
+@import"./steps";

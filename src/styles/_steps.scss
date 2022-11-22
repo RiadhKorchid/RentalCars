@@ -1,0 +1,113 @@
+.steps {
+    display: flex;
+    padding-inline: 8vw;
+    flex-direction: column;
+    min-height: calc(100vh - 88px);
+    background-color: rgba(0, 0, 0,0.04 );
+    gap: 2.5rem;
+
+    .steps-header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.5rem;
+      
+        h1 {
+            color: $secondary-color;
+            font-size: 0.9rem;
+            font-weight: 400;
+        }
+
+        h2 {
+            font-size: 1.1rem;
+            font-weight: 700;
+        }
+
+    }
+
+    .steps-body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 5rem;
+
+        .howItWork {
+            display: flex;
+            justify-content: space-around;
+            gap: 3rem;
+
+            div {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 1rem;
+                padding: 1rem;
+
+                .icon {
+                    height: 4rem;
+                    color: $primary-color;
+                    width: 100%;
+                    
+                }
+                h1{
+                    font-weight: 700;
+                    font-size: 0.8rem;
+                }
+                p{
+                    font-size: 0.7rem;
+                    line-height: 1.2rem;
+                    width: 70%;
+                    text-align: center;
+                    color: $secondary-color;
+                    
+                }
+
+            }
+
+        }
+
+        .search {
+            display: flex;
+            padding: 0.5rem;
+            border-radius: 10px;
+            width: 100%;
+            gap: 1rem;
+            align-items: center;
+            background-color: white;
+    
+            fieldset{
+                    width: 30%;
+                    text-decoration: none;
+                   
+                legend{
+                    font-size: 0.7rem;
+                    font-weight: 900;
+                }
+                input{border: none;
+                    height: 2rem;
+                    width: 100%;
+                    //font-size: 1.5rem;
+                    &:focus{
+                        outline: none;
+
+                    }
+
+                }
+            }
+            button{
+                margin-top: 7px;
+                padding: 0.8rem;
+                width: 20%;
+                background-color: $primary-color;
+                color: white;
+                border: none;
+                border-radius: 5px;
+                font-size: 0.8rem;
+                font-weight: 600;
+            }
+
+        }
+    }
+
+
+}

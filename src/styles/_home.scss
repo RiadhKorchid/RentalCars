@@ -12,7 +12,7 @@
         justify-content: center;
         h1{
             font-size: 3.5rem;
-            font-weight: 800;
+            font-weight: 700;
             span{
                 text-decoration-line:underline;
                 color: #3BB0E4;
@@ -21,8 +21,16 @@
         p{
             line-height: 1.5rem;
             font-weight: 400;
-            color: #bbbcbf;
+            color:$secondary-color;
             font-weight: 300;
+        }
+        .stores{
+            display: flex;
+            gap: 0.7rem;
+            img{
+                width: 7rem;
+            }
+
         }
         
 
