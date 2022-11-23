@@ -1,7 +1,8 @@
 import React from "react";
 import { IoLocation } from "react-icons/io5";
-import { BsCalendar2WeekFill } from "react-icons/bs"
+import { BsFillTelephoneOutboundFill} from "react-icons/bs"
 import {AiFillCar} from "react-icons/ai"
+
 export default  function ()
 {
     return (
@@ -14,18 +15,16 @@ export default  function ()
             <div className="howItWork">
                 <div>
                     <IoLocation className="icon"/>
-                    <h1>Choose location</h1>
-                    <p>Choose your location and find your best car. </p>
+                    <h1>Choose your location and find your best car.</h1>
                 </div>
                 <div >
-                    <BsCalendar2WeekFill className="icon"/>
-                    <h1>Pick-up date</h1>
-                    <p>Select your pick up date and time to book your car . </p>
+                    <BsFillTelephoneOutboundFill className="icon"/>
+                    <h1>Call the vehicle owner  and discuss</h1>
                 </div>
                <div>
                 <AiFillCar className="icon"/>
                 <h1>Book your car </h1>
-                <p> book your car and we will deliver it directly to you </p>
+               
                </div>
             </div>
         <div className="search">
@@ -34,19 +33,15 @@ export default  function ()
                 <input type="text"  placeholder="enter your location"/>
             </fieldset>
             <fieldset>
-                <legend> PICKUP DATE</legend>
-                <input type="date" />
+                <legend>Min Price</legend>
+                <input type="Number" />
             </fieldset>
             <fieldset>
-                <legend>RETURN DATE</legend>
-                <input type="date" />
+                <legend>Max Price</legend>
+                <input type="Number" />
             </fieldset>
             <button>Search</button>
-            
-
             </div>
-
-
         </div>
 
 

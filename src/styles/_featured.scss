@@ -1,0 +1,42 @@
+.featured{
+    display: flex;
+    flex-direction: column ;
+    padding-inline :8vw ;
+    align-items: center;
+    min-height: calc(100vh - 88px);
+    .head{
+        min-height: 15vh;
+        display: flex;
+        align-items: center;
+        h1{
+            font-size: 1rem;
+            color: $secondary-color;
+        }}
+    .body {
+        display: flex;
+        flex-direction: column;
+      .cars {  
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr ;
+        gap: 1rem;
+    }
+    .bottom {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 20vh;
+        button{
+            color: $primary-color;
+            border: none;
+            border-radius: 2rem;
+            padding: 0.5rem;
+            padding-inline: 1.5rem;
+            font-size: 0.9rem;
+            cursor: pointer;
+    
+    }}
+}
+    }
+@import"./car"
+
+

@@ -4,7 +4,7 @@ import "../styles/app.scss"
 import Home from "./Home"
 import Steps from "./Steps"
 import Footer from "./Footer"
-
+import Featured from "./Featured"
 export default function (){
 
 return(<>
@@ -12,6 +12,7 @@ return(<>
     <Home/>
     <Steps/>
     <Footer/>
+    <Featured/>
 
 </>)
 
