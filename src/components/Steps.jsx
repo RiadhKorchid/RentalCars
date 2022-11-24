@@ -27,21 +27,6 @@ export default  function ()
                
                </div>
             </div>
-        <div className="search">
-            <fieldset className="location">
-                <legend>LOCATION</legend>
-                <input type="text"  placeholder="enter your location"/>
-            </fieldset>
-            <fieldset>
-                <legend>Min Price</legend>
-                <input type="Number" />
-            </fieldset>
-            <fieldset>
-                <legend>Max Price</legend>
-                <input type="Number" />
-            </fieldset>
-            <button>Search</button>
-            </div>
         </div>
 
 

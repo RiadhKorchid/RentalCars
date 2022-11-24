@@ -10,14 +10,14 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        gap: 0.5rem;
-      
+        justify-content: center;
+        min-height: 20vh;
+        gap: 0.5rem;  
         h1 {
             color: $secondary-color;
             font-size: 0.9rem;
             font-weight: 400;
         }
-
         h2 {
             font-size: 1.1rem;
             font-weight: 700;
@@ -28,12 +28,13 @@
     .steps-body {
         display: flex;
         flex-direction: column;
-        align-items: center;
+        justify-content: center;
+        min-height: calc(80vh - 88px);
         gap: 5rem;
 
         .howItWork {
-            display: flex;
-            justify-content: space-around;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr ;
             gap: 3rem;
 
             div {
@@ -44,14 +45,15 @@
                 padding: 1rem;
 
                 .icon {
-                    height: 4rem;
+                    height: 7rem;
                     color: $primary-color;
                     width: 100%;
                     
                 }
                 h1{
-                    font-weight: 700;
-                    font-size: 0.8rem;
+                    font-weight: 600;
+                    font-size: 1.5rem;
+                    text-align: center;
                 }
         
 
@@ -59,47 +61,7 @@
 
         }
 
-        .search {
-            display: flex;
-            padding: 0.5rem;
-            border-radius: 10px;
-            width: 100%;
-            gap: 1rem;
-            align-items: center;
-            background-color: white;
-    
-            fieldset{
-                    width: 30%;
-                    text-decoration: none;
-                   
-                legend{
-                    font-size: 0.7rem;
-                    font-weight: 900;
-                }
-                input{border: none;
-                    height: 2rem;
-                    width: 100%;
-                    //font-size: 1.5rem;
-                    &:focus{
-                        outline: none;
-
-                    }
-
-                }
-            }
-            button{
-                margin-top: 7px;
-                padding: 0.8rem;
-                width: 20%;
-                background-color: $primary-color;
-                color: white;
-                border: none;
-                border-radius: 5px;
-                font-size: 0.8rem;
-                font-weight: 600;
-            }
-
-        }
+        
     }
 
 

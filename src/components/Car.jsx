@@ -17,7 +17,7 @@ export default function () {
             <GiAlarmClock className="icon" />
             <span >13h hours ago</span>
             </div>
-
+            <button>View offer</button>
         </div>
     )
 }

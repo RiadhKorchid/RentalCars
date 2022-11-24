@@ -1,12 +1,11 @@
-.home{
+.home-section{
     display: flex;
+    flex-direction: column;
     padding-inline: 8vw;
-   
-    min-height: calc(100vh - 88px);
-
+    .home{
+    display: flex;
     .home-left{
         width: 50%;
-       
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -39,4 +38,47 @@
         width: 50%;
         
     }
+    
+}
+.search {
+    display: flex;
+    padding: 0.5rem;
+    border-radius: 10px;
+    gap: 1rem;
+    align-items: center;
+    background-color:white;
+
+    fieldset{
+            width: 30%;
+            text-decoration: none;
+           
+        legend{
+            font-size: 0.7rem;
+            font-weight: 900;
+        }
+        input{border: none;
+            height: 2rem;
+            width: 100%;
+            //font-size: 1.5rem;
+            &:focus{
+                outline: none;
+
+            }
+
+        }
+    }
+    button{
+        margin-top: 7px;
+        padding: 0.8rem;
+        width: 20%;
+        background: linear-gradient(45deg ,#20BF55,#01BAEF);
+        //background-color: $primary-color;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        font-size: 0.8rem;
+        font-weight: 600;
+    }
+
+}
 }

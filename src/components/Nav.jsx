@@ -1,5 +1,7 @@
 import React from "react";
 import{ FaCar} from "react-icons/fa"
+import  { Link } from "react-router-dom"
+
 export default function(){
     return(
         <nav>
@@ -14,7 +16,7 @@ export default function(){
                 <li>How to work?</li>
                 <li>why choose us</li>
             </ul>
-            <button>Login</button>
+            <Link to={"/auth"} >Login</Link>
         </div>
 
         </nav>

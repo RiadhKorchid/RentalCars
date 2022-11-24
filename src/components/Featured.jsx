@@ -13,6 +13,10 @@ export default function(){
             <Car/>
             <Car/>
             <Car/>
+            <Car/>
+            <Car/>
+            <Car/>
+            <Car/>
             </div>
           <div className="bottom"> <button>Show All Vehicles <FaArrowRight/></button></div> 
             </div>
