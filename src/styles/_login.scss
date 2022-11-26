@@ -1,0 +1,65 @@
+.login-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgba($color: #000000, $alpha: 0.1);
+    .container{
+        background-color: white;
+        display: flex;
+        flex-direction: column;  
+        gap:0.8rem;
+        padding: 2rem;
+        width: 25%;
+        input{
+            border: none;
+            padding: 0.9rem;
+            background-color: rgba($color: #000000, $alpha: 0.09);
+        }
+        a{
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.8rem;
+            text-align: end;
+            color: rgba($color: #000000, $alpha: 0.5);
+        }
+        button{
+            background-color: $primary-color;
+            padding: 0.85rem;
+            border: none;
+            border-radius: 5px;
+            color: white;
+            cursor: pointer;
+            
+        }
+        h1{
+            text-align: center;
+            font-size: 0.8rem;
+            color: rgba($color: #000000, $alpha: 0.5);
+            a{
+                color: $primary-color;
+            }
+        }
+        h2{
+            text-align: center;
+            font-size: 0.8rem;
+            color: rgba($color: #000000, $alpha: 0.5);
+
+        }
+        .icons{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 1rem;
+            .icon{
+                height: 1.5rem;
+                width: 1.5rem;
+                
+            }
+        }
+
+
+        
+
+    }
+}

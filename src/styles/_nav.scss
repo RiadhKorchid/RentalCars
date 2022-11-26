@@ -7,7 +7,6 @@ nav{ position: sticky;
     min-height: 88px;
     justify-content: space-between;
     padding-inline: 8vw;
-
     .nav-left{
         display: flex;
         align-items: center;
@@ -38,8 +37,8 @@ nav{ position: sticky;
             li{
                 font-size: 0.8rem;
                 font-weight: 500;
-            }
         }
+    }
         button{
             padding:0.5rem;
             padding-inline: 2rem;
@@ -50,4 +49,4 @@ nav{ position: sticky;
             background-color: #01BAEF;
         }
     }
-}
+    }
