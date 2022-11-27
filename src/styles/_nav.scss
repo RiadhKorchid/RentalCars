@@ -39,14 +39,19 @@ nav{ position: sticky;
                 font-weight: 500;
         }
     }
-        button{
+        .login{
             padding:0.5rem;
-            padding-inline: 2rem;
-            border-radius: 5px;
+            padding-inline: 3rem;
+            border-radius: 10px;
             border: none;
             background:linear-gradient(45deg ,#20BF55,#01BAEF);
             color: white;
             background-color: #01BAEF;
+          
+            .login-text {
+                color: white;  
+                text-decoration: inherit;
+            }
         }
     }
     }

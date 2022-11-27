@@ -16,7 +16,7 @@ export default function(){
                 <li>How to work?</li>
                 <li>why choose us</li>
             </ul>
-            <Link to={"/auth"} >Login</Link>
+           <div className="login"> <Link to={"/signin"} className="login-text" >Login</Link></div>
         </div>
 
         </nav>
